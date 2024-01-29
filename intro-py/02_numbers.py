@@ -1,3 +1,8 @@
+"""
+Numbers
+This file talks about numbers.
+"""
+
 num = 35 # Integer
 PI = 3.14159 # Float
 
@@ -11,4 +16,8 @@ integer_division = 8 // 3 # (//) elimina los decimales
 print(integer_division)
 
 remainder = 13 % 5
+print(remainder)
+
+x = 37
+remainder = x % 2
 print(remainder)

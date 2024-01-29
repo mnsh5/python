@@ -1,3 +1,8 @@
+"""
+Variables
+This file talks about variables.
+"""
+
 country = "Argentina"
 print(country)
 
