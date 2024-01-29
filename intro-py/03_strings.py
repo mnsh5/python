@@ -14,7 +14,14 @@ Jose Salvatierra.
 """
 print(multiline)
 
+"""
+Python String formatting.
+"""
 name = "Jose Salvatierra"
-print("Hello, ",name)
-print("Hello, " + name)
-print(f"Hello {name}!")
+greeting = f"How are you, {name}?"
+print(greeting)
+
+username = "Bob"
+final_greeting = "How are you, {}?"
+username_greeting = final_greeting.format(username)
+print(username_greeting)
