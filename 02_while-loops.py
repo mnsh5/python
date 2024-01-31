@@ -1,9 +1,9 @@
 # -- Infinite loop --
 
-is_learning = True
+# is_learning = True
 
-while is_learning:
-    print("You're learning!")
+# while is_learning:
+#     print("You're learning!")
 
 
 # -- Ending a loop with user input --
