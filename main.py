@@ -1,6 +1,6 @@
 class Cat:
-    def __init__(self, username, city) -> None:
-        self.catname = username
+    def __init__(self, catname, city) -> None:
+        self.catname = catname
         self.city = city
 
     def greeting(self):
