@@ -1,13 +1,12 @@
-class User:
-    def __init__(self, username, country) -> None:
-        self.username = username
-        self.country = country
+class Cat:
+    def __init__(self, name) -> None:
+        self.name = name
 
-    def get_user(self):
-        return f"Hello {self.username} from {self.country}"
+    def meow(self):
+        print(f"My 🐈 {self.name} said Meoowww")
 
 
 if __name__ == "__main__":
-    john = User("John", "USA")
-    print(john.get_user())
+    malala = Cat("Malala")
+    malala.meow()
 
