@@ -12,6 +12,18 @@ class WorkingStudent(Student):
     super().__init__(name, school) # Student
     self.salary = salary
 
-rolf = WorkingStudent("Rolf", "MIT", 15.5)
-print(rolf.school)
-print(rolf.salary)
+  def weekly_salary(self):
+    return self.salary * 40
+
+if __name__ == "__main__":
+  rolf = WorkingStudent("Rolf", "MIT", 35.5)
+  print(rolf.school)
+  print(rolf.salary)
+
+  rolf.marks.append(10)
+  rolf.marks.append(8)
+  rolf.marks.append(8)
+  rolf.marks.append(7)
+
+  print(rolf.average())
+  print(rolf.weekly_salary())
