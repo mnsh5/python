@@ -3,10 +3,8 @@ class Cat:
         self.name = name
 
     def meow(self):
-        print(f"My 🐈 {self.name} said Meoowww")
-
+        print(f"{self.name} says: Meoowww... 🐈")
 
 if __name__ == "__main__":
     malala = Cat("Malala")
     malala.meow()
-

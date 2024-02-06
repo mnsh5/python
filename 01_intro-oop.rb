@@ -4,7 +4,7 @@ class Cat
   end
 
   def meow
-    puts "My 🐈 #{@name} said Meoow.."
+    puts "#{@name} says: Meoow... 🐈"
   end
 end
 
